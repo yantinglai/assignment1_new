@@ -2,6 +2,5 @@
 *.class
 .idea/
 output.csv
-output/output(GO).csv
+#output/output(GO).csv
 out/
-output/output(GO).csv
