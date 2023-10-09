@@ -2,8 +2,11 @@
 LoadTestClient is a Java-based load testing tool designed to simulate real-world usage of a web server by sending multiple HTTP requests in quick succession.
 ## Configuration: 
 To configure and run the LoadTestClient, use the following command-line arguments:
+
 Command: java <Filename> threadGroupSize numThreadGroups delay baseURL
+
 Example: java LoadTestClient 10 10 2 http://54.70.48.164:8081/albums/1
+
 threadGroupSize: Number of threads per group.
 numThreadGroups: Number of thread groups.
 delay: Delay between thread groups (in seconds).
